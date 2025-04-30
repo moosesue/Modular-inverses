@@ -1,0 +1,14 @@
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Rust target directory
+target/
+Cargo.lock
+
+# Ignore backup and temporary files
+*.bak
+*.tmp
+*.swp
+.DS_Store
