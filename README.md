@@ -44,7 +44,7 @@ fn modular_inverse(a:i32, b:i32) -> Result<i32, String> {
 ``` 
 ## Application in RSA (Rivest-Shamir-Adleman) cryptosystems.
 
-The RSA algorithm uses modular inverses to generate key pairs using two prime numbers. 
+The RSA algorithm uses modular inverses to generate key pairs using two prime numbers. For two prime numbers, $p$ and $q$, the product of these primes, $n$, is used to calculate an encryption key $e$ and decryption key $d$ such that $c = m$<sup>e</sup> mod $n$ and $m = c$ <sup>d</sup> mod $n$ for ciphertext $c$ and plaintext $m$.
 
 ### Example:
 
